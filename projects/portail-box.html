@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Portail Personnalisé BOX - Matthieu PERRY</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#1e293b',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="../index.html" class="text-2xl font-bold text-primary">Mon Portfolio</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="../index.html#home" class="hover:text-primary transition">Accueil</a>
+                    <a href="../index.html#projects" class="hover:text-primary transition">Retour aux projets</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Header -->
+    <section class="pt-32 pb-10 bg-gradient-to-br from-gray-900 to-secondary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Portail Personnalisé BOX</h1>
+            <p class="text-xl text-primary">Portail Web - Intranet</p>
+        </div>
+    </section>
+
+    <!-- Project Details -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-10">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Description du projet</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Développement d'un portail web personnalisé pour l'accès aux services et outils internes de l'entreprise.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-10">
+                <div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Fonctionnalités principales</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Authentification utilisateur</li>
+                        <li>Tableau de bord personnalisé</li>
+                        <li>Accès rapide aux applications métiers</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Technologies utilisées</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">HTML/CSS/JS</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">PHP</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="https://github.com/MattPerry-94/Portail-personnalis-BOX" target="_blank" class="inline-flex items-center bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition">
+                    <i class="fab fa-github mr-2"></i> Voir le code sur GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 text-center text-gray-500 text-sm">
+        <p>&copy; 2026 Mon Portfolio - BTS SIO. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
