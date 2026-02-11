@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique Vue.js - Portfolio Matthieu Perry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#1e293b',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-primary">Portfolio Matthieu Perry</a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="hover:text-primary transition">Retour à l'accueil</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="pt-32 pb-10 text-center bg-gray-50">
+        <h1 class="text-4xl font-bold text-gray-900">Veille Technologique</h1>
+        <div class="w-24 h-1 bg-emerald-500 mx-auto mt-6"></div>
+        <p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto px-4">
+            Sujet N°2 : Framework Vue.js
+        </p>
+    </div>
+
+    <!-- Sujet 2: Vue.js -->
+    <section class="py-10 bg-white min-h-screen">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <p class="text-xl text-gray-700 mb-10 font-medium text-center">
+                Sujet : <span class="font-bold">Comment Vue.js a-t-il évolué pour répondre aux nouvelles exigences du web moderne ?</span>
+            </p>
+
+            <div class="flex flex-col md:flex-row gap-12">
+                <div class="md:w-1/2">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-sm h-full border border-gray-100">
+                        <h3 class="text-2xl font-bold mb-6 text-gray-900"><i class="fas fa-question-circle text-emerald-500 mr-2"></i>Pourquoi ce sujet ?</h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            J’ai choisi d’étudier l’évolution de Vue.js car ce framework JavaScript est largement utilisé pour le développement d’interfaces web modernes. Avec l’arrivée de Vue 3, le framework a introduit des améliorations majeures en matière de performance, de modularité et de compatibilité avec TypeScript. Cette évolution montre comment les frameworks frontend s’adaptent aux nouvelles exigences du web moderne : performance, maintenabilité et optimisation SEO.
+                        </p>
+                        
+                        <div class="mb-8">
+                            <h4 class="font-bold text-gray-900 mb-3">Points analysés :</h4>
+                            <ul class="grid grid-cols-1 gap-2">
+                                <li class="flex items-center text-gray-600"><i class="fas fa-check text-emerald-500 mr-2"></i> Passage de Vue 2 à Vue 3</li>
+                                <li class="flex items-center text-gray-600"><i class="fas fa-check text-emerald-500 mr-2"></i> Introduction de la Composition API</li>
+                                <li class="flex items-center text-gray-600"><i class="fas fa-check text-emerald-500 mr-2"></i> Améliorations de performance (Virtual DOM)</li>
+                                <li class="flex items-center text-gray-600"><i class="fas fa-check text-emerald-500 mr-2"></i> Meilleure intégration avec TypeScript</li>
+                                <li class="flex items-center text-gray-600"><i class="fas fa-check text-emerald-500 mr-2"></i> Architecture SPA vs SSR</li>
+                                <li class="flex items-center text-gray-600"><i class="fas fa-check text-emerald-500 mr-2"></i> Écosystème moderne (Router, Pinia, Vite)</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="text-xl font-bold mb-4 text-gray-900"><i class="fas fa-tools text-emerald-500 mr-2"></i>Mes outils de veille</h3>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="bg-white border border-gray-200 text-gray-800 px-4 py-2 rounded-full text-sm font-medium shadow-sm flex items-center">
+                                <i class="fas fa-rss text-orange-500 mr-2"></i> Feedly
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 space-y-6">
+                    <h3 class="text-2xl font-bold mb-6 text-gray-900"><i class="far fa-newspaper text-emerald-500 mr-2"></i>Articles & Ressources</h3>
+                    
+                    <!-- Article 1 -->
+                    <a href="https://www.lemon-interactive.fr/actualites/developpement/vue-js-comprendre-framework-javascript/" target="_blank" class="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 border-l-4 border-emerald-500 group">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="font-bold text-lg text-gray-900 group-hover:text-emerald-500 transition">Vue.js : tout comprendre de ce framework JavaScript</h4>
+                            <i class="fas fa-external-link-alt text-gray-400 text-sm"></i>
+                        </div>
+                        <p class="text-sm text-gray-500 mb-3"><i class="far fa-calendar-alt mr-2"></i>LeMon-Interactive.fr</p>
+                        <p class="text-gray-600">Article qui présente Vue.js, son fonctionnement, ses origines et explique pourquoi ce framework gagne en popularité parmi les développeurs web.</p>
+                    </a>
+                    
+                    <!-- Article 2 -->
+                    <a href="https://www.adimeo.com/blog-technique/vuejs-nuxtjs-vuetify-developpement-web-moderne" target="_blank" class="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 border-l-4 border-emerald-500 group">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="font-bold text-lg text-gray-900 group-hover:text-emerald-500 transition">Vue.js, Nuxt.js et Vuetify : les technologies gagnantes du Web moderne</h4>
+                            <i class="fas fa-external-link-alt text-gray-400 text-sm"></i>
+                        </div>
+                        <p class="text-sm text-gray-500 mb-3"><i class="far fa-calendar-alt mr-2"></i>Adimeo.com</p>
+                        <p class="text-gray-600">Article récent qui met en avant Vue.js et son écosystème (Nuxt.js, Vuetify) comme une solution complète pour construire des applications web performantes, modulaires et bien référencées.</p>
+                    </a>
+                    
+                    <!-- Article 3 -->
+                    <a href="https://dyma.fr/blog/vue/" target="_blank" class="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 border-l-4 border-emerald-500 group">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="font-bold text-lg text-gray-900 group-hover:text-emerald-500 transition">Guide complet sur Vue 3</h4>
+                            <i class="fas fa-external-link-alt text-gray-400 text-sm"></i>
+                        </div>
+                        <p class="text-sm text-gray-500 mb-3"><i class="far fa-calendar-alt mr-2"></i>Dyma.fr</p>
+                        <p class="text-gray-600">Présente Vue.js et son évolution avec Vue 3, notamment l’intégration de TypeScript, la réactivité optimisée et la progression du framework vers des projets plus complexes.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 text-center text-gray-500 text-sm">
+        <p>&copy; 2026 Mon Portfolio - BTS SIO. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
