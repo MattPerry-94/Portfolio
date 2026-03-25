@@ -75,10 +75,10 @@
             <div class="md:w-1/2 flex justify-center">
                 <!-- Placeholder for profile image -->
                 <div class="relative w-64 h-64 md:w-80 md:h-80 bg-gray-700 rounded-full border-4 border-primary shadow-2xl overflow-hidden">
-                    <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                    <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
                         <i class="fas fa-user text-6xl text-gray-500"></i>
                     </div>
-                    <img src="assets/img/profile.jpg" alt="Profile" class="absolute inset-0 w-full h-full object-cover object-top">
+                    <img src="assets/img/profile.jpg" alt="Profile" class="absolute inset-0 w-full h-full object-cover object-top z-10">
                 </div>
             </div>
         </div>
@@ -241,6 +241,33 @@
         </div>
     </section>
 
+    <section id="futur" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900">Mon Futur</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+                <p class="mt-4 text-gray-600">Retrouvez mon document présentant mes objectifs et mon projet professionnel.</p>
+            </div>
+
+            <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-md border border-gray-100 p-8">
+                <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-primary mr-4">
+                            <i class="fas fa-file-word text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900">Document Word</h3>
+                            <p class="text-sm text-gray-600">Téléchargement du fichier</p>
+                        </div>
+                    </div>
+                    <a href="assets/futur.docx" download class="inline-flex items-center bg-primary hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition">
+                        <i class="fas fa-download mr-2"></i> Télécharger
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
     <section id="projects" class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -370,7 +397,7 @@
                 <h2 class="text-3xl font-bold text-gray-900">Veille Technologique</h2>
                 <div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
                 <p class="mt-4 text-gray-600">
-                    Découvrez mes sujets de veille technologique : Rust et Vue.js.
+                    Découvrez mes sujets de veille technologique : Rust et Salesforce.
                 </p>
             </div>
 
@@ -394,20 +421,20 @@
                     </div>
                 </a>
 
-                <!-- Card Vue.js -->
+                <!-- Card Salesforce -->
                 <a href="veille-vuejs.html" class="block group bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 border border-gray-100">
-                    <div class="h-32 bg-emerald-600 flex items-center justify-center">
-                        <i class="fab fa-vuejs text-5xl text-white group-hover:scale-110 transition duration-300"></i>
+                    <div class="h-32 bg-sky-600 flex items-center justify-center">
+                        <i class="fab fa-salesforce text-5xl text-white group-hover:scale-110 transition duration-300"></i>
                     </div>
                     <div class="p-8">
                         <div class="flex items-center mb-4">
-                            <span class="bg-emerald-500 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wide">Sujet N°2</span>
+                            <span class="bg-sky-500 text-white text-xs font-bold px-2 py-1 rounded uppercase tracking-wide">Sujet N°2</span>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-emerald-500 transition">Framework Vue.js</h3>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-sky-500 transition">Salesforce</h3>
                         <p class="text-gray-600 mb-4">
-                            Comment Vue.js a-t-il évolué pour répondre aux nouvelles exigences du web moderne ?
+                            Comment Salesforce évolue-t-il pour répondre aux nouveaux besoins des entreprises (CRM, automatisation et IA) ?
                         </p>
-                        <div class="flex items-center text-emerald-600 font-semibold">
+                        <div class="flex items-center text-sky-600 font-semibold">
                             Lire la veille <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition"></i>
                         </div>
                     </div>
